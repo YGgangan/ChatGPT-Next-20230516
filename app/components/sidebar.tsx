@@ -122,6 +122,7 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-title"]}>ChatGPT</div>
         <div className={styles["sidebar-sub-title"]}>
           微信搜索Liuweilong-93进群免费使用
+          此网站仅供学习交流使用，禁止搜索违反法律法规、部门规章或国家政策的内容。由此引起的一切后果由使用者承担。
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
