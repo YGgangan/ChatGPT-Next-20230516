@@ -37,7 +37,7 @@ export const getServerSideConfig = () => {
   const apikey = apikeys.at(Math.floor(Math.random() * apikeys.length)) ?? ' '
 
   return {
-    apiKey
+    apiKey,
     code: process.env.CODE,
     codes: ACCESS_CODES,
     needCode: ACCESS_CODES.size > 0,
